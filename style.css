@@ -1,0 +1,154 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    background: #3f0e40;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 220px;
+    cursor: pointer;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#name:hover {
+    cursor: pointer;
+    background-color: #350d36;
+}
+
+#name div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name div:first-child span:first-child {
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#name div:first-child span:first-child i {
+    color: #aa95ab;
+    font-size: 10px;
+}
+
+#name:hover div:first-child span:first-child i,
+#name:hover div:last-child span {
+    color: white;
+}
+
+#name div:first-child span:last-child i {
+    color: #aa95ab;
+    font-size: 20px;
+}
+#name div:first-child span:last-child i:hover{
+    color: white;
+}
+
+#name div:last-child i {
+    color: #38928a;
+    font-size: 10px;
+    padding-right: 5px;
+}
+
+#name div:last-child span {
+    color: #aa95ab;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#button{
+    height: 52px;
+}
+#jump{
+    color: #aa95ab;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 192px;
+    margin-top: 5px;
+    margin-left: 14px;
+    top: 16px;
+    background: #260027;
+    border: transparent;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+#jump span{
+    display: none;
+}
+#jump:hover{
+    background-color: #1c001d;
+}
+#jump:hover span{
+    display: inline-block;
+}
+
+#thr{
+    color: #aa95ab;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    padding: 5px 14px;
+}
+#thr:hover{
+    background: #350D36;
+}
+#thr i{
+    font-size: 13px;
+}
+.cha{
+    color: #aa95ab;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.cha-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+.cha-name:hover span{
+color: white;
+}
+.cha-items{
+    padding: 3px 14px;
+    font-size: 14px;
+}
+.cha-items i{
+    font-size: 12px;
+}
+
+.cha-items:hover{
+    background-color: #350D36;
+}
+
+
+
+
+
+
+
+
+
+.green{
+    color: #38928a;
+}
+
+.space{
+    height: 18px;
+}
